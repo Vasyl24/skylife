@@ -1,0 +1,21 @@
+.brands-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+  //   margin-left: 150px;
+  text-align: center;
+}
+.brands-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.brands-list {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.brands-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
