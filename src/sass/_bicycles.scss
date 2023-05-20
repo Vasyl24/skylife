@@ -1,0 +1,41 @@
+.bicycle-section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.bicycle-title {
+  margin-bottom: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.bicycle-list {
+  display: flex;
+  justify-content: space-around;
+}
+.bicycle-des {
+  padding: 32px 16px;
+}
+.bicycle-item {
+  box-shadow: 0 2px 1px #2e2f4214, 0 1px 1px #2e2f4229, 0 1px 6px #2e2f4214;
+}
+.bicycle-name {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.bicycle-price {
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 23px;
+  //   text-transform: capitalize;
+  color: #2e2f42;
+}
