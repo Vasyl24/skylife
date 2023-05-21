@@ -1,0 +1,125 @@
+.footer {
+  background-color: var(--title-text-color);
+}
+.logo-footer {
+  display: block;
+  margin-bottom: 16px;
+  color: var(--secondary-title-color);
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: calc(21 / 18);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 767.98px) {
+  .logo-footer {
+    text-align: center;
+  }
+}
+.logo-footer .logo-purple {
+  color: var(--accent-color);
+}
+.footer-list {
+  padding-top: 96px;
+  padding-bottom: 96px;
+}
+@media screen and (min-width: 768px) {
+  .footer-list {
+    display: flex;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .footer-list {
+    flex-wrap: wrap;
+    padding-left: 108px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .footer-item:not(:last-child) {
+    margin-bottom: 72px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .footer-item:nth-child(1) {
+    margin-right: 24px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199.98px) {
+  .footer-item {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .footer-item:last-child {
+    margin-top: 72px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer-item:nth-child(1) {
+    margin-right: 120px;
+  }
+  .footer-item:nth-child(2) {
+    margin-right: 80px;
+  }
+}
+.footer-text {
+  margin: 0 auto;
+  max-width: 264px;
+  width: 100%;
+
+  color: var(--secondary-text-color);
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+}
+.footer-headline {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: var(--white-color);
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+@media screen and (max-width: 767.98px) {
+  .footer-headline {
+    text-align: center;
+  }
+}
+.footer-item .social-list {
+  justify-content: center;
+  gap: 16px;
+}
+.social-link.footer-social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: background-color var(--main-transition);
+}
+.social-link.footer-social-link:hover,
+.social-link.footer-social-link:focus {
+  background-color: var(--success-color);
+}
+.social-icon.footer-icon {
+  width: 24px;
+  height: 24px;
+}
+.footer-nav {
+  display: flex;
+  gap: 100px;
+}
+.footer-nav-link {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: 600;
+  line-height: calc(24 / 16);
+  letter-spacing: 0.02em;
+
+  transition: color var(--main-transition),
+    background-color var(--main-transition), box-shadow var(--main-transition);
+}
+.footer-nav-link:hover,
+.footer-nav-link:focus {
+  color: var(--accent-color);
+}
+.footer-nav-item {
+  margin-bottom: 12px;
+}

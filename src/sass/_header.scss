@@ -175,7 +175,7 @@
     width: 100%;
     height: 4px;
 
-    background: var(--pressed-state);
+    background: var(--accent-color);
     border-radius: 2px;
   }
   .site-nav-link {
@@ -233,6 +233,7 @@
   }
   .auth-nav {
     display: flex;
+    align-items: center;
     padding-bottom: 24px;
   }
   .auth-nav-link {
