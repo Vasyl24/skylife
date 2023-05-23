@@ -1,3 +1,3 @@
-import { snowboards } from './bikes';
+import { snowboards } from './snowboards';
 
 console.log(snowboards);
