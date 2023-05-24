@@ -1,3 +1,3 @@
-import { bikes } from './bikes-storage';
+// import { bikes } from './bikes-storage';
 
-console.log(bikes.child);
+// console.log(bikes.child);
