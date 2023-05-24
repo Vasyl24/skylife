@@ -1,5 +1,3 @@
-import { bikes } from './bikes';
-import { bikes } from './bikes';
-import { bikes } from './bikes';
+import { bikes } from './bikes-storage';
 
 console.log(bikes.child);

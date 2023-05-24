@@ -1,3 +1,3 @@
-import { snowboards } from './snowboards';
+import { snowboards } from './snowboards-storage';
 
 console.log(snowboards);
