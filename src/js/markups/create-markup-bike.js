@@ -3,18 +3,15 @@ function createMarkup(arr, list) {
   if (arr.length) {
     markup = arr
       .map(
-        ({
-          id,
-          img,
-          name,
-          price,
-        }) => `<li data-id="${id}" class="swiper-slide bicycle-item js-card">
-          <img src="${img}" alt="${name}" width="250" />
+        ({ id, img, name, price }) => `<li  class="swiper-slide" >
+        <div data-id="${id}" class="bicycle-item js-card">
+          <img src="${img}" alt="${name}" width="290" />
           <div class="bicycle-des">
             <h2 class="bicycle-name">${name}</h2>
             <h3 class="bicycle-price">${price} грн.</h3>
           </div>
 
+          </div>
       </li>`
       )
       .join('');

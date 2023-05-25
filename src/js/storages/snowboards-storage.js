@@ -71,174 +71,174 @@ const snowboards = [
     description:
       "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
   },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
-  {
-    id: 107,
-    img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
-    name: 'Salomon PULSE',
-    price: 10500,
-    description:
-      "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
-  },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
+  // {
+  //   id: 107,
+  //   img: 'https://www.salomon.com/en-us/shop/media/catalog/product/L/4/L47031600_efad9e81aaa5c3f1edd08fa611568030.png?auto=webp&bg-color=f5f5f5&dpr=1.25&fit=cover&format=pjpg&optimize=low&orient=1&width=810',
+  //   name: 'Salomon PULSE',
+  //   price: 10500,
+  //   description:
+  //     "Сноуборд Pulse має м'яку гнучкість, що полегшує прогресування та знижує ризик падіння для новачків. Також він має рівний вигин для вільної їзди.",
+  // },
 ];
 
 export { snowboards };
