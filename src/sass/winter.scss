@@ -1,0 +1,51 @@
+.winter-section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.js-snowboards-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -22px;
+  margin-bottom: -48px;
+}
+.snowboard-item {
+  //   width: 300px;
+  margin-bottom: 48px;
+  margin-right: 22px;
+  width: calc((1280px - 96px) / 4);
+  box-shadow: 0 2px 1px #2e2f4214, 0 1px 1px #2e2f4229, 0 1px 6px #2e2f4214;
+}
+
+.snowboard-des {
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.snowboard-name {
+  margin-bottom: 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+.snowboard-price {
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 23px;
+  color: #2e2f42;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}

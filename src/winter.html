@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Winter</title>
     <link rel="stylesheet" href="../src/sass/index.scss" />
+    <link rel="stylesheet" href="../src/sass/winter.scss" />
   </head>
   <body>
     <include src="./partials/header.html"></include>
     <main>
-      <p>Hello it's winter</p>
+      <section class="winter-section">
+        <div class="container">
+          <ul class="js-snowboards-list"></ul>
+        </div>
+        <!-- <div class="pagination"></div> -->
+      </section>
 
       <include src="./partials/footer.html"></include>
     </main>
+    <script type="module" src="./js/winter.js"></script>
   </body>
 </html>

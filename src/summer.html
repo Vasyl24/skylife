@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Summer</title>
     <link rel="stylesheet" href="../src/sass/index.scss" />
+    <link rel="stylesheet" href="../src/sass/summer.scss" />
   </head>
   <body>
     <include src="./partials/header.html"></include>
     <main>
-      <p>Hello it's summer</p>
+      <section class="summer-section">
+        <div class="container">
+          <ul class="js-bikes-list"></ul>
+        </div>
+        <!-- <div class="pagination"></div> -->
+      </section>
 
       <include src="./partials/footer.html"></include>
     </main>
+    <script type="module" src="./js/summer.js"></script>
   </body>
 </html>

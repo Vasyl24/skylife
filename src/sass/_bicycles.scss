@@ -1,3 +1,5 @@
+@import './card-modal';
+
 .bicycle-section {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -28,6 +30,7 @@
   width: 290px;
   height: 300px;
   box-shadow: 0 2px 1px #2e2f4214, 0 1px 1px #2e2f4229, 0 1px 6px #2e2f4214;
+  cursor: pointer;
 }
 .bicycle-name {
   margin-bottom: 8px;
@@ -49,4 +52,7 @@
   padding: 10px;
   // padding-top: 10px;
   // padding-bottom: 10px;
+}
+.bike-item {
+  cursor: pointer;
 }

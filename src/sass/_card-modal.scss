@@ -1,0 +1,209 @@
+.card-modal {
+  width: 335px;
+  min-height: 678px;
+  background-color: #ffffff;
+  border: 2px solid #111111;
+  border-radius: 18px;
+  padding: 40px 24px;
+  // background-attachment: fixed;
+  @media screen and (min-width: 768px) {
+    // display: flex;
+    // flex-wrap: wrap;
+    width: 579px;
+    min-height: 465px;
+    padding: 40px 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .card-modal-details {
+    margin-left: 24px;
+    // width: 279px;
+  }
+}
+body.dark-theme .card-modal {
+  background-color: var(--primary-bg-color-dark);
+  border: 2px solid var(--title-text-color-theme-dark);
+}
+.card-modal-img {
+  width: 287px;
+  height: 408px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+  @media screen and (min-width: 768px) {
+    width: 490px;
+    height: 281px;
+    margin-bottom: 40px;
+  }
+}
+.card-modal-title {
+  margin-bottom: 4px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: calc(16 / 18);
+  letter-spacing: -0.04em;
+  color: #111111;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+}
+body.dark-theme .card-modal-title {
+  color: var(--title-text-color-theme-dark);
+}
+.card-modal-author {
+  margin-bottom: 18px;
+  font-family: 'DM Sans';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 14px;
+  letter-spacing: -0.04em;
+
+  //   color: #b4afaf;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 18px;
+  }
+}
+.card-modal-desc {
+  max-width: 287px;
+  margin-bottom: 14px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.04em;
+  color: #111111;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+}
+body.dark-theme .card-modal-desc {
+  color: var(--title-text-color-theme-dark);
+}
+.icon-card-modal-list {
+  margin-bottom: 40px;
+  display: flex;
+  column-gap: 20px;
+  align-items: center;
+}
+body.dark-theme .icon-card-modal-list {
+  fill: var(--title-text-color-theme-dark);
+}
+.icon-card-modal-amazon {
+  width: 62px;
+  height: 19px;
+}
+.icon-card-modal-icards {
+  width: 33px;
+  height: 33px;
+}
+.icon-card-modal-cardshop {
+  width: 38px;
+  height: 38px;
+}
+.home-cards-item {
+  cursor: pointer;
+}
+.card-modal-btn {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 8px;
+  padding: 14px 23px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #111111;
+  border: 2px solid #4f2ee8;
+  border-radius: 40px;
+  cursor: pointer;
+  @media screen and (min-width: 768px) {
+    // padding: 20px 95px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+.card-modal-btn.js-add {
+  @media screen and (min-width: 768px) {
+    padding: 20px 146.5px;
+  }
+}
+.card-modal-btn.js-remove {
+  @media screen and (min-width: 768px) {
+    padding: 20px 95px;
+  }
+}
+.card-modal-buy {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  width: 242px;
+
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: rgba(17, 17, 17, 0.5);
+  @media screen and (min-width: 768px) {
+    width: 324px;
+    font-size: 12px;
+    line-height: 14px;
+  }
+}
+body.dark-theme .card-modal-buy {
+  color: var(--primary-text-color-theme-dark);
+}
+.card-modal-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  @media screen and (min-width: 768px) {
+    top: 31px;
+    right: 31px;
+  }
+}
+.icon-card-modal-close {
+  width: 14px;
+  height: 14px;
+}
+.icon-card-modal-close:hover,
+.icon-card-modal-close:focus {
+  fill: var(--accent-color);
+  transition: var(--animation);
+}
+body.dark-theme .icon-card-modal-close {
+  fill: var(--title-text-color-theme-dark);
+}
+body.dark-theme .icon-card-modal-close:hover,
+body.dark-theme .icon-card-modal-close:focus {
+  fill: var(--accent-color);
+  transition: var(--animation);
+}
+.js-add::after {
+  content: 'Add to shopping list';
+}
+.js-remove::after {
+  content: 'Remove from the shopping list';
+}
+body.dark-theme .card-modal,
+body.dark-theme .card-modal-btn {
+  background-color: var(--primary-bg-color-dark);
+  color: var(--title-text-color-theme-dark);
+}
