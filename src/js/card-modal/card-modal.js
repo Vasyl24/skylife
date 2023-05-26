@@ -1,5 +1,6 @@
 import { createMarkup } from './modal-markup';
-import { bikes } from '../storages/bikes-storage';
+// import { bikes } from '../storages/bikes-storage';
+import { bikes } from '../../../storage.json';
 
 const modal = document.querySelector('.js-bicycle-list');
 modal.addEventListener('click', onClick);

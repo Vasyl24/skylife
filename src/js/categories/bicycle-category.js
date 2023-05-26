@@ -1,5 +1,6 @@
 import { createMarkup } from '../markups/create-markup-bike';
-import { bikes } from '../storages/bikes-storage';
+// import { bikes } from '../storages/bikes-storage';
+import { bikes } from '../../../storage.json';
 import { swiper } from '../slider';
 import '../card-modal/card-modal';
 
