@@ -28,12 +28,15 @@
 }
 .bicycle-item {
   width: 290px;
-  height: 300px;
+  min-height: 280px;
   box-shadow: 0 2px 1px #2e2f4214, 0 1px 1px #2e2f4229, 0 1px 6px #2e2f4214;
   cursor: pointer;
 }
+.img-bike-section {
+  margin-bottom: 25px;
+}
 .bicycle-name {
-  margin-bottom: 8px;
+  margin-bottom: 12px;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
@@ -55,4 +58,9 @@
 }
 .bike-item {
   cursor: pointer;
+}
+.bike-section-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
