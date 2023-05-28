@@ -12,17 +12,17 @@ function createMarkup(product) {
         <ul class='icon-card-modal-list'>
         <li>
             <a href="#" target="_blank">
-            <svg class='icon-card-modal-amazon'><use href="${icon}#icon-telegram"></use></svg>
+            <svg class='icon-card-modal'><use href="${icon}#icon-telegram"></use></svg>
             </a>
         </li>
         <li>
             <a href="#" target="_blank">
-            <svg class='icon-card-modal-icards'><use href="${icon}#icon-instagram"></use></svg>
+            <svg class='icon-card-modal'><use href="${icon}#icon-instagram"></use></svg>
             </a>
         </li>
         <li>
             <a href="#" target="_blank">
-            <svg class='icon-card-modal-cardshop'><use href="${icon}#icon-youtube"></use></svg>
+            <svg class='icon-card-modal'><use href="${icon}#icon-youtube"></use></svg>
             </a>
         </li>
         </ul>

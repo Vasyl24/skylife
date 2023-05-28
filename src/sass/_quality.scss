@@ -19,12 +19,13 @@
 }
 .quality-item {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
   align-items: center;
 }
-.quality-icon {
-  display: block;
-  width: 32px;
-  height: 32px;
-  margin-bottom: 14px;
-}
+// .quality-icon {
+//   display: block;
+// width: 32px;
+// height: 32px;
+//   margin-bottom: 14px;
+// }
