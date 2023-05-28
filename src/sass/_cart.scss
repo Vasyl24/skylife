@@ -3,7 +3,10 @@ body {
 }
 .shopping-list-wrapper {
   display: flex;
-  column-gap: 40px;
+  justify-content: center;
+}
+.sl-cont {
+  padding-top: 30px;
 }
 .sl-title {
   font-weight: 700;
@@ -32,7 +35,6 @@ body {
 .sl-list > li {
   margin-bottom: 20px;
   max-width: 335px;
-  height: 1000px;
 }
 
 .trash-btn {
@@ -77,12 +79,12 @@ body {
   opacity: 0;
 }
 
-.sl-book-img {
+.sl-product-img {
   margin: 14px;
   border-radius: 8px;
 }
 
-.sl-book-cat {
+.sl-product-cat {
   font-weight: 400;
   font-size: 12px;
   line-height: 1.16;
@@ -93,7 +95,7 @@ body {
   margin-bottom: 8px;
 }
 
-.sl-book-title {
+.sl-product-title {
   max-width: 170px;
   white-space: nowrap;
   overflow: hidden;
@@ -104,7 +106,7 @@ body {
   margin-bottom: 4px;
 }
 
-.sl-book-descr {
+.sl-product-descr {
   height: 68px;
   overflow-y: scroll;
 
@@ -114,17 +116,17 @@ body {
   letter-spacing: -0.04em;
   color: var(--title-text-color-theme-light);
 }
-.sl-book-descr::-webkit-scrollbar {
+.sl-product-descr::-webkit-scrollbar {
   width: 8px;
 }
 
-.sl-book-descr::-webkit-scrollbar-thumb {
+.sl-product-descr::-webkit-scrollbar-thumb {
   background-color: var(--secondary-text-color);
   border-radius: 12px;
   height: 4px;
 }
 
-.sl-book-author {
+.sl-product-author {
   font-style: italic;
   font-weight: 400;
   font-size: 12px;
@@ -133,7 +135,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-.sl-book-author {
+.sl-product-author {
   font-style: italic;
   font-weight: 400;
   font-size: 12px;
@@ -142,7 +144,7 @@ body {
   color: var(--secondary-text-color);
 }
 
-.sl-book-author {
+.sl-product-author {
   font-style: italic;
   font-weight: 400;
   font-size: 12px;
@@ -196,27 +198,27 @@ body {
     height: 213px;
   }
 
-  .sl-book-img {
-    width: 116px;
+  .sl-product-img {
+    // width: 116px;
     margin: 24px;
   }
 
-  .sl-book-title {
+  .sl-product-title {
     margin-top: 24px;
     overflow: visible;
     width: auto;
   }
 
-  .sl-book-cat {
+  .sl-product-cat {
     margin-bottom: 14px;
   }
 
-  .sl-book-descr {
+  .sl-product-descr {
     margin-bottom: 20px;
     padding: 0;
   }
 
-  .sl-book-author {
+  .sl-product-author {
     overflow: visible;
   }
 
@@ -233,7 +235,7 @@ body {
     height: 18px;
   }
 
-  .sl-book-info {
+  .sl-product-info {
     width: inherit;
   }
 
@@ -241,21 +243,6 @@ body {
     font-size: 18px;
     line-height: 1.33;
     margin-bottom: 20px;
-  }
-
-  .sl-amazon {
-    width: 48px;
-    height: 15px;
-  }
-
-  .sl-ibooks {
-    width: 28px;
-    height: 27px;
-  }
-
-  .sl-bookshop {
-    width: 32px;
-    height: 30px;
   }
 
   .sl-eshops > li:not(:last-child) {
