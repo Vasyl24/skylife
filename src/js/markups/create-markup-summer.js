@@ -8,7 +8,7 @@ function createMarkup(arr, list) {
           img,
           name,
           price,
-        }) => `<li data-id="${id}" class="bike-item js-card">
+        }) => `<li data-id="${id}" class="bike-item js-card js-bike-item-summer">
           <img src="${img}" alt="${name}" width="296" />
           <div class="bike-des">
             <h2 class="bike-name">${name}</h2>

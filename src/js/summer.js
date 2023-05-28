@@ -1,10 +1,17 @@
 import { createMarkup } from './markups/create-markup-summer';
-import { bikes } from './storages/bikes-storage';
+import { bikes } from '../../bike-storage.json';
+import './card-modal/card-modal-summer';
+
+const { men, women, children } = bikes;
+const arr = [];
+men.map(bike => arr.push(bike));
+women.map(bike => arr.push(bike));
+children.map(bike => arr.push(bike));
 
 const cards = document.querySelector('.js-bikes-list');
 // const card = document.querySelector('.js-bikes-item');
 // const pagination = document.querySelector('.pagination');
-createMarkup(bikes, cards);
+createMarkup(arr, cards);
 
 // let perPage;
 // if (window.innerWidth >= 768) {
