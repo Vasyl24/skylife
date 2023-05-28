@@ -23,7 +23,6 @@ body {
 
   margin-right: auto;
   margin-left: auto;
-  margin-top: 120px;
 }
 
 .sl-part {
@@ -33,6 +32,7 @@ body {
 .sl-list > li {
   margin-bottom: 20px;
   max-width: 335px;
+  height: 1000px;
 }
 
 .trash-btn {
@@ -71,9 +71,6 @@ body {
 
   opacity: 1;
   transition: opacity 0.5s ease-in-out;
-}
-body.dark-theme .sl-card {
-  background-color: var(--header-bg-color-theme-dark);
 }
 
 .sl-card.removing {
@@ -136,10 +133,6 @@ body.dark-theme .sl-card {
   color: var(--secondary-text-color);
 }
 
-body.dark-theme .sl-book-descr::-webkit-scrollbar-thumb {
-  background-color: black;
-}
-
 .sl-book-author {
   font-style: italic;
   font-weight: 400;
@@ -191,9 +184,6 @@ body.dark-theme .sl-book-descr::-webkit-scrollbar-thumb {
   letter-spacing: -0.02em;
 
   color: rgba(0, 0, 0, 0.6);
-}
-body.dark-theme .sl-message {
-  color: #ffffff;
 }
 // Tablet styles
 
@@ -247,25 +237,10 @@ body.dark-theme .sl-message {
     width: inherit;
   }
 
-  .empty-cart {
-    margin-top: 140px;
-
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
   .sl-message {
     font-size: 18px;
     line-height: 1.33;
     margin-bottom: 20px;
-  }
-  body.dark-theme .sl-message {
-    color: #ffffff;
-  }
-  .empty-cart > img {
-    width: 322px;
   }
 
   .sl-amazon {
@@ -286,22 +261,6 @@ body.dark-theme .sl-message {
   .sl-eshops > li:not(:last-child) {
     margin-right: 16px;
   }
-}
-body.dark-theme .sl-amazon,
-body.dark-theme .sl-ibooks,
-body.dark-theme .sl-bookshop {
-  fill: white;
-}
-body.dark-theme .sl-title {
-  color: #ffffff;
-}
-
-body.dark-theme .sl-book-descr {
-  color: #ffffff;
-}
-
-body.dark-theme .sl-book-title {
-  color: #ffffff;
 }
 
 @media screen and (min-width: 1440px) {

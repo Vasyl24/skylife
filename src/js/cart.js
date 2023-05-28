@@ -15,7 +15,7 @@ if (
 const slPage = document.querySelector('.js-sl');
 const emptyCart = `<div class="empty-cart">
     <p class="sl-message">Ця сторінка порожня, додайте якийсь товар в кошик, щоб замовити.</p>
-    <img src="${image}" alt="books">
+    <img src="${image}" alt="books" width="300"/>
   </div>`;
 
 // Getting data from local Storage
