@@ -8,27 +8,26 @@ function createMarkup(product) {
     <img src="${product.img}" alt="${product.name}" class="card-modal-img"/>
     <div class='card-modal-details'>
         <h2 class="card-modal-title">${product.name}</h2>
-        <h3 class="card-modal-author">${product.price}</h3>
+        <h3 class="card-modal-price">${product.price} грн.</h3>
+        <p class="card-modal-text">Якщо є якісь питання, дзвоніть або пишіть😉:</p>
         <ul class='icon-card-modal-list'>
         <li>
-            <a href="#" target="_blank">
+            <a href="tel:+11(000)111-11-11" class="auth-nav-link link">+11 (000) 111-11-11</a>
+        </li>
+        <li>
+        <a href="https://www.instagram.com/skylifeprokat/" target="_blank">
+        <svg class='icon-card-modal'><use href="${icon}#icon-instagram"></use></svg>
+        </a>
+        </li>
+        <li>
+            <a href="https://t.me/skylifeprokat2012" target="_blank">
             <svg class='icon-card-modal'><use href="${icon}#icon-telegram"></use></svg>
-            </a>
-        </li>
-        <li>
-            <a href="#" target="_blank">
-            <svg class='icon-card-modal'><use href="${icon}#icon-instagram"></use></svg>
-            </a>
-        </li>
-        <li>
-            <a href="#" target="_blank">
-            <svg class='icon-card-modal'><use href="${icon}#icon-youtube"></use></svg>
             </a>
         </li>
         </ul>
     </div>
     <button class='card-modal-btn js-add' id='js-card-modal-btn'></button>
-    <p class='card-modal-buy'>Сongratulations! You have added the card to the shopping list. To delete, press the button “Remove from the shopping list”.</p>
+    <p class='card-modal-buy'>Вітаємо! Ви додали товар у кошик. Щоб видалити, натисніть кнопку “Видалити з кошику”.</p>
     <button class='card-modal-close' id='js-card-modal-btn-close'>
     <svg class='icon-card-modal-close'><use href='${icon}#icon-closeCross'></use></svg>
     </button>

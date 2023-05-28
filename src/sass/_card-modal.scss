@@ -45,7 +45,7 @@ body.dark-theme .card-modal {
   letter-spacing: -0.04em;
   color: #111111;
   @media screen and (min-width: 768px) {
-    margin-bottom: 8px;
+    margin-bottom: 14px;
     font-size: 24px;
     line-height: 28px;
   }
@@ -53,14 +53,13 @@ body.dark-theme .card-modal {
 body.dark-theme .card-modal-title {
   color: var(--title-text-color-theme-dark);
 }
-.card-modal-author {
+.card-modal-price {
   margin-bottom: 18px;
   font-family: 'DM Sans';
-  font-style: italic;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 14px;
-  letter-spacing: -0.04em;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 18px;
+  letter-spacing: -0.02em;
 
   //   color: #b4afaf;
   @media screen and (min-width: 768px) {
@@ -68,6 +67,9 @@ body.dark-theme .card-modal-title {
     font-size: 20px;
     line-height: 18px;
   }
+}
+.card-modal-text {
+  margin-bottom: 12px;
 }
 .card-modal-desc {
   max-width: 287px;
@@ -98,9 +100,15 @@ body.dark-theme .icon-card-modal-list {
 
 .icon-card-modal {
   display: block;
-  width: 30px;
-  height: 30px;
+  width: 24px;
+  height: 24px;
+  transition: fill var(--main-transition);
 }
+.icon-card-modal:hover,
+.icon-card-modal:focus {
+  fill: var(--accent-color);
+}
+
 .home-cards-item {
   cursor: pointer;
 }
@@ -118,18 +126,25 @@ body.dark-theme .icon-card-modal-list {
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #111111;
-  border: 2px solid #4f2ee8;
+  border: 2px solid var(--accent-color);
   border-radius: 40px;
   cursor: pointer;
+  transition: background-color var(--main-transition),
+    color var(--main-transition);
   @media screen and (min-width: 768px) {
     // padding: 20px 95px;
     font-size: 18px;
     line-height: 24px;
   }
 }
+.card-modal-btn:hover,
+.card-modal-btn:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
 .card-modal-btn.js-add {
   @media screen and (min-width: 768px) {
-    padding: 20px 140px;
+    padding: 20px 148px;
   }
 }
 .card-modal-btn.js-remove {
@@ -191,10 +206,10 @@ body.dark-theme .icon-card-modal-close:focus {
   transition: var(--animation);
 }
 .js-add::after {
-  content: 'Add to shopping list';
+  content: 'Додати до кошика';
 }
 .js-remove::after {
-  content: 'Remove from the shopping list';
+  content: 'Видалити з кошика';
 }
 body.dark-theme .card-modal,
 body.dark-theme .card-modal-btn {

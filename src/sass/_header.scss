@@ -246,7 +246,28 @@
     margin-bottom: 0;
   }
 }
-
-.nav-social-link {
+.nav-social-icon {
+  display: block;
+  transition: fill var(--main-transition);
+}
+.nav-social-icon:hover,
+.nav-social-icon:focus {
+  fill: var(--accent-color);
+}
+.icon-cart-link {
   display: flex;
+  align-items: center;
+  transition: fill var(--main-transition), color var(--main-transition);
+}
+.icon-cart-link:hover,
+.icon-cart-link:focus {
+  fill: var(--accent-color);
+}
+.icon-cart {
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.cart-text {
+  font-weight: 600;
+  line-height: 1.5;
 }
