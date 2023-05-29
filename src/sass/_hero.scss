@@ -24,13 +24,21 @@
 }
 
 .hero-title.summer-title {
-  top: 15%;
+  top: 12%;
+  transform: translate(-30%);
+
   color: rgb(219, 161, 53);
 }
-.hero-img:hover .hero-title {
+.hero-img ~ .hero-title {
+  transition: color var(--main-transition);
+}
+.hero-img:hover ~ .hero-title {
   color: var(--accent-color);
 }
-.hero-img:hover .hero-title.summer-title {
+.hero-img ~ .hero-title.summer-title {
+  transition: color var(--main-transition);
+}
+.hero-img:hover ~ .hero-title.summer-title {
   color: #ffffff;
 }
 // .hero-section {
