@@ -255,3 +255,25 @@ body {
     max-width: 996px;
   }
 }
+html,
+body {
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header,
+footer {
+  flex: none;
+}
+
+main {
+  overflow-y: scroll;
+  flex: auto;
+  display: grid;
+}

@@ -13,10 +13,14 @@ const emptyCart = `<div class="empty-cart">
   </div>`;
 
 // Getting data from local Storage
-let slProductsData = JSON.parse(localStorage.getItem('products'));
+let slProductsData = JSON.parse(localStorage.getItem('products')) ?? [];
+
+slPage.innerHTML = emptyCart;
 
 function renderSlPage() {
-  if (!slProductsData || slProductsData === []) {
+  //   console.log(!slProductsData);
+  //   console.log(!slProductsData.length);
+  if (!slProductsData.length) {
     slPage.innerHTML = emptyCart;
   } else {
     slPage.innerHTML = createCardMarkup(slProductsData);
@@ -47,7 +51,6 @@ function removeProductFromCart(event) {
     const slProductId = slCard.dataset.id;
     slProductsData.some(localProduct => {
       if (localProduct.id === Number(slProductId)) {
-        console.log(localProduct.id);
         slProductsData.splice(slProductsData.indexOf(localProduct), 1);
         localStorage.setItem('products', JSON.stringify(slProductsData));
       }
