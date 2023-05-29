@@ -1,6 +1,38 @@
 .hero-list {
   display: flex;
 }
+.hero-link {
+  position: relative;
+}
+.hero-img {
+  filter: brightness(100%);
+  transition: filter var(--main-transition);
+}
+.hero-img:hover {
+  filter: brightness(50%);
+}
+
+.hero-title {
+  // font-style: normal;
+  font-size: 46px;
+  color: #ffffff;
+
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.hero-title.summer-title {
+  top: 15%;
+  color: rgb(219, 161, 53);
+}
+.hero-img:hover .hero-title {
+  color: var(--accent-color);
+}
+.hero-img:hover .hero-title.summer-title {
+  color: #ffffff;
+}
 // .hero-section {
 //   padding-bottom: 60px;
 // }

@@ -18,13 +18,12 @@ let slProductsData = JSON.parse(localStorage.getItem('products')) ?? [];
 slPage.innerHTML = emptyCart;
 
 function renderSlPage() {
-  //   console.log(!slProductsData);
-  //   console.log(!slProductsData.length);
   if (!slProductsData.length) {
     slPage.innerHTML = emptyCart;
   } else {
     slPage.innerHTML = createCardMarkup(slProductsData);
     const removeBtn = slPage.querySelectorAll('.js-remove-product');
+
     removeBtn.forEach(btn =>
       btn.addEventListener('click', removeProductFromCart)
     );
@@ -47,14 +46,15 @@ function removeProductFromCart(event) {
 
   slCard.classList.add('removing');
   slCard.addEventListener('transitionend', () => {
-    //   slCard.addEventListener('click', () => {
     const slProductId = slCard.dataset.id;
+
     slProductsData.some(localProduct => {
       if (localProduct.id === Number(slProductId)) {
         slProductsData.splice(slProductsData.indexOf(localProduct), 1);
         localStorage.setItem('products', JSON.stringify(slProductsData));
       }
     });
+
     if (!slProductsData.length) {
       slPage.innerHTML = emptyCart;
     } else {
