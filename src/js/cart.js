@@ -25,15 +25,15 @@ function renderSlPage() {
       btn.addEventListener('click', removeProductFromCart)
     );
   }
-  if (slProductsData) {
-    slPage.innerHTML = createCardMarkup(slProductsData);
-    const removeBtn = slPage.querySelectorAll('.js-remove-product');
-    removeBtn.forEach(btn =>
-      btn.addEventListener('click', removeProductFromCart)
-    );
-  } else {
-    slPage.innerHTML = emptyCart;
-  }
+  //   if (slProductsData) {
+  //     slPage.innerHTML = createCardMarkup(slProductsData);
+  //     const removeBtn = slPage.querySelectorAll('.js-remove-product');
+  //     removeBtn.forEach(btn =>
+  //       btn.addEventListener('click', removeProductFromCart)
+  //     );
+  //   } else {
+  //     slPage.innerHTML = emptyCart;
+  //   }
 }
 renderSlPage();
 
@@ -43,12 +43,15 @@ function removeProductFromCart(event) {
 
   slCard.classList.add('removing');
   slCard.addEventListener('transitionend', () => {
+    //   slCard.addEventListener('click', () => {
     const slProductId = slCard.dataset.id;
-
-    slProductsData.filter(product => product.id !== slProductId);
-    // console.log(slProductsData);
-    localStorage.setItem('products', JSON.stringify(slProductsData));
-    // console.log(localStorage);
+    slProductsData.some(localProduct => {
+      if (localProduct.id === Number(slProductId)) {
+        console.log(localProduct.id);
+        slProductsData.splice(slProductsData.indexOf(localProduct), 1);
+        localStorage.setItem('products', JSON.stringify(slProductsData));
+      }
+    });
     if (!slProductsData.length) {
       slPage.innerHTML = emptyCart;
     } else {
