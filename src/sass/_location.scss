@@ -2,17 +2,13 @@
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.location-logo {
-  margin-bottom: 20px;
-  font-size: 28px;
-}
+
 .icon-location {
   width: 20px;
-  height: 28px;
+  height: 20px;
 }
 .location-adress {
   display: flex;
-  align-items: center;
 }
 .location-info {
   display: flex;
@@ -24,4 +20,29 @@
 }
 .location-tel-list {
   margin-bottom: 20px;
+}
+.tel-nr {
+  color: #000000;
+  transition: color var(--main-transition);
+}
+.tel-nr:hover,
+.tel-nr:focus {
+  color: var(--accent-color);
+}
+.location-tel-item:not(:last-child) {
+  margin-bottom: 8px;
+}
+.location-adress-text {
+  font-size: 18px;
+  color: #000000;
+  margin-bottom: 12px;
+  transition: color var(--main-transition);
+}
+.location-adress-text:hover,
+.location-adress-text:focus {
+  color: var(--accent-color);
+}
+
+.schedule-item {
+  margin-bottom: 8px;
 }

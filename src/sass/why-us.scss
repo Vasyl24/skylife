@@ -29,3 +29,9 @@
 .why-us-item-title {
   margin-bottom: 8px;
 }
+.why-us-text {
+  font-size: 18px;
+}
+.why-us-text:not(:last-child) {
+  margin-bottom: 10px;
+}
