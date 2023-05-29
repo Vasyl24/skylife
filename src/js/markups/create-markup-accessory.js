@@ -4,7 +4,7 @@ function createMarkup(arr, list) {
     markup = arr
       .map(
         ({ id, img, name, price }) => `<li  class="swiper-slide" >
-        <div data-id="${id}" class="accessory-item js-card">
+        <div data-id="${id}" class="accessory-item js-card js-accessory-item">
           
           <div class="card-img-accessory" style="background-image:url('${img}')"></div>
           <div class="accessory-des">
