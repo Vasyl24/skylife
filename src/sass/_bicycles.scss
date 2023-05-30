@@ -28,7 +28,7 @@
 }
 .bicycle-item {
   width: 290px;
-  min-height: 280px;
+  height: 300px;
   box-shadow: 0 2px 1px #2e2f4214, 0 1px 1px #2e2f4229, 0 1px 6px #2e2f4214;
   cursor: pointer;
 }
@@ -51,10 +51,7 @@
   color: #2e2f42;
 }
 .swiper-slide {
-  // height: auto;
   padding: 10px;
-  // padding-top: 10px;
-  // padding-bottom: 10px;
 }
 .bike-item {
   cursor: pointer;
@@ -63,4 +60,5 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 0 16px 16px;
 }
