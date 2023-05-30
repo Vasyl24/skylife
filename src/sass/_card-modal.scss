@@ -25,16 +25,16 @@ body.dark-theme .card-modal {
   border: 2px solid var(--title-text-color-theme-dark);
 }
 .card-modal-img {
-  width: 287px;
   height: 408px;
   border-radius: 8px;
   margin-bottom: 14px;
+  margin: 0 auto;
   @media screen and (min-width: 768px) {
-    width: 490px;
     height: 281px;
     margin-bottom: 40px;
   }
 }
+
 .card-modal-title {
   margin-bottom: 4px;
   font-family: 'DM Sans';

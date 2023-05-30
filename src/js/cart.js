@@ -72,10 +72,10 @@ function createCardMarkup(productsData) {
       // const productshopUrl = buy_links[4].url;
 
       return `<li class="sl-card" data-id=${id}>
-      <img src="${img}" alt="${name}" width="290" height="170" class="sl-product-img">
+      <img src="${img}" alt="${name}" height="170" class="sl-product-img">
       <div class="sl-product-info">
           <h3 class="sl-product-title">${name}</h3>
-          <h2 class="sl-product-cat">${price}</h2>
+          <h2 class="sl-product-cat">${price} грн.</h2>
           <p class="sl-product-descr">${description}</p>
           <div class="sl-aut-shops">
             <p class="sl-product-author">${name}</p>
