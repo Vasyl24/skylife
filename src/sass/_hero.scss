@@ -1,8 +1,10 @@
 .hero-list {
   display: flex;
+  justify-content: center;
 }
 .hero-link {
   position: relative;
+  z-index: 1;
 }
 .hero-img {
   filter: brightness(100%);
@@ -21,8 +23,62 @@
   top: 65%;
   left: 50%;
   transform: translate(-50%);
+  z-index: 2;
+  transition: color var(--main-transition);
 }
 
+.hero-item {
+  position: relative;
+}
+.hero-item:hover .hero-icon-snow {
+  transform: translateX(-200px);
+  rotate: 180deg;
+}
+.hero-icon-snow {
+  fill: var(--accent-color);
+  position: absolute;
+  top: 3%;
+  left: 1%;
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+  transition-delay: 0;
+}
+.hero-icon-snow.snow-1 {
+  top: 15%;
+  left: 15%;
+}
+.hero-icon-snow.snow-2 {
+  top: 32%;
+  left: 7%;
+}
+.hero-icon-snow.snow-3 {
+  top: 40%;
+  left: 30%;
+}
+.hero-icon-snow.snow-4 {
+  top: 62%;
+  left: 15%;
+}
+.hero-icon-snow.snow-5 {
+  top: 75%;
+  left: 33%;
+}
+.hero-icon-snow.snow-6 {
+  top: 8%;
+  left: 35%;
+}
+.hero-icon-snow.snow-7 {
+  top: 80%;
+  left: 6%;
+}
+.hero-icon-snow.snow-8 {
+  top: 50%;
+}
+.hero-icon-snow.snow-9 {
+  top: 58%;
+  left: 40%;
+}
 .hero-title.summer-title {
   top: 12%;
   transform: translate(-30%);
@@ -41,6 +97,66 @@
 .hero-img:hover ~ .hero-title.summer-title {
   color: #ffffff;
 }
+.hero-title ~ .hero-img {
+  transition: filter var(--main-transition);
+}
+
+.hero-item:hover .hero-icon-sun {
+  transform: translateX(200px);
+  rotate: 180deg;
+}
+.hero-icon-sun {
+  fill: #dba135;
+  position: absolute;
+  top: 3%;
+  right: 1%;
+  transition-property: transform;
+  transition-duration: 500ms;
+  transition-timing-function: linear;
+  transition-delay: 0;
+}
+.hero-icon-sun.sun-1 {
+  top: 15%;
+  right: 15%;
+}
+.hero-icon-sun.sun-2 {
+  top: 32%;
+  right: 7%;
+}
+.hero-icon-sun.sun-3 {
+  top: 40%;
+  right: 30%;
+}
+.hero-icon-sun.sun-4 {
+  top: 62%;
+  right: 15%;
+}
+.hero-icon-sun.sun-5 {
+  top: 75%;
+  right: 33%;
+}
+.hero-icon-sun.sun-6 {
+  top: 8%;
+  right: 35%;
+}
+.hero-icon-sun.sun-7 {
+  top: 80%;
+  right: 6%;
+}
+.hero-icon-sun.sun-8 {
+  top: 50%;
+  right: 0;
+}
+.hero-icon-sun.sun-9 {
+  top: 58%;
+  right: 40%;
+}
+// .hero-img + .hero-title:hover{
+//   filter: brightness(50%);
+// }
+// .hero-title:hover {
+//   color: var(--accent-color);
+// }
 // .hero-section {
 //   padding-bottom: 60px;
 // }
