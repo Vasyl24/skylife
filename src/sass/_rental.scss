@@ -1,0 +1,32 @@
+.rental-title {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.rental-prices-summer {
+  box-shadow: 0 0 0 2px #f6af04;
+  background: #fff;
+  border-collapse: collapse;
+  border-radius: 30px;
+  border-style: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+}
+.rental-prices-summer tr th,
+.rental-prices-summer tr td {
+  border: 2px solid #f6af04;
+  padding: 15px;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.rental-prices-summer.winter tr th,
+.rental-prices-summer.winter tr td {
+  border: 2px solid var(--accent-color);
+}
+.rental-prices-summer.winter {
+  box-shadow: 0 0 0 2px var(--accent-color);
+}
