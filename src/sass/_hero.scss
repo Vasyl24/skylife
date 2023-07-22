@@ -6,16 +6,44 @@
   position: relative;
   z-index: 1;
 }
-.hero-img {
-  filter: brightness(100%);
-  transition: filter var(--main-transition);
+
+.hero-img:hover::before {
+  background: rgba(0, 0, 0, 0.5);
 }
-.hero-img:hover {
-  filter: brightness(50%);
+
+.hero-img::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  transition: background-color var(--main-transition);
+}
+
+.hero-title.summer-title {
+  top: 12%;
+  transform: translate(-30%);
+}
+.hero-img > .hero-title {
+  transition: color var(--main-transition);
+}
+.hero-img:hover > .hero-title {
+  color: var(--accent-color);
+}
+.hero-img ~ .hero-title.summer-title {
+  transition: color var(--main-transition);
+}
+.hero-img:hover > .hero-title.summer-title {
+  color: rgb(219, 161, 53);
+}
+.hero-title ~ .hero-img {
+  transition: filter var(--main-transition);
 }
 
 .hero-title {
-  // font-style: normal;
   font-size: 46px;
   color: #ffffff;
 
@@ -23,7 +51,6 @@
   top: 65%;
   left: 50%;
   transform: translate(-50%);
-  z-index: 2;
   transition: color var(--main-transition);
 }
 
@@ -78,25 +105,6 @@
 .hero-icon-snow.snow-9 {
   top: 58%;
   left: 40%;
-}
-.hero-title.summer-title {
-  top: 12%;
-  transform: translate(-30%);
-}
-.hero-img ~ .hero-title {
-  transition: color var(--main-transition);
-}
-.hero-img:hover ~ .hero-title {
-  color: var(--accent-color);
-}
-.hero-img ~ .hero-title.summer-title {
-  transition: color var(--main-transition);
-}
-.hero-img:hover ~ .hero-title.summer-title {
-  color: rgb(219, 161, 53);
-}
-.hero-title ~ .hero-img {
-  transition: filter var(--main-transition);
 }
 
 .hero-item:hover .hero-icon-sun {

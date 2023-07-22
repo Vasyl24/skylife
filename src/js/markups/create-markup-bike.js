@@ -5,14 +5,15 @@ function createMarkup(arr, list) {
       .map(
         ({ id, img, name, price }) => `<li  class="swiper-slide" >
         <div data-id="${id}" class="bicycle-item js-card js-bike-item">
-          <img src="${img}" alt="${name}" width="290" class="img-bike-section"/>
+        
+        <img src="${img}" alt="${name}" width="290" class="img-bike-section" />
           <div class="bike-section-text">
             <h2 class="bicycle-name">${name}</h2>
-            <h3 class="bicycle-price">${price} грн.</h3>
+            <h3 class="bicycle-price">${price} грн.</h3>        
           </div>
-
           </div>
-      </li>`
+          </li>          
+      `
       )
       .join('');
   }

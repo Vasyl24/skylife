@@ -76,6 +76,30 @@ body {
   }
 }
 
+.swiper-container {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+.swiper-container .swiper-button-prev-1 {
+  left: -40px;
+}
+.swiper-container .swiper-button-next-1 {
+  right: -40px;
+}
+.swiper-container .swiper-button-prev-2 {
+  left: -40px;
+}
+.swiper-container .swiper-button-next-2 {
+  right: -40px;
+}
+.swiper-container .swiper-button-prev-3 {
+  left: -40px;
+}
+.swiper-container .swiper-button-next-3 {
+  right: -40px;
+}
+
 /* HEADER */
 
 /* HERO SECTION */

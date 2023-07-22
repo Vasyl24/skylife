@@ -6,7 +6,7 @@ function createMarkup(arr, list) {
         ({ id, img, name, price }) => `<li  class="swiper-slide" >
         <div data-id="${id}" class="accessory-item js-card js-accessory-item">
           
-          <div class="card-img-accessory" style="background-image:url('${img}')"></div>
+          <div class="card-img-accessory" style="background-image:url('${img}')" ></div>
           <div class="accessory-des">
             <h2 class="accessory-name">${name}</h2>
             <h3 class="accessory-price">${price} грн.</h3>

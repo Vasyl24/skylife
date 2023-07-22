@@ -11,7 +11,6 @@ function createMarkup(arr, list) {
             <h2 class="snowboard-name">${name}</h2>
             <h3 class="snowboard-price">${price} грн.</h3>
           </div>
-
           </div>
       </li>`
       )
