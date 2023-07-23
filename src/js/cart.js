@@ -9,7 +9,7 @@ import icon from '../images/icon.svg';
 const slPage = document.querySelector('.js-sl');
 const emptyCart = `<div class="empty-cart">
     <p class="sl-message">Ця сторінка порожня, додайте якийсь товар в кошик, щоб замовити.</p>
-              <svg width="300">
+              <svg width="300" height="300">
             <use href="${icon}#icon-sad-cart"></use>
           </svg>
   </div>`;
