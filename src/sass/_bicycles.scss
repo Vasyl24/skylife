@@ -36,19 +36,20 @@
   margin-bottom: 25px;
 }
 .bicycle-name {
-  margin-bottom: 12px;
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   text-transform: capitalize;
   color: #2e2f42;
+  padding: 0 16px;
 }
 .bicycle-price {
   font-weight: 200;
   font-size: 16px;
   line-height: 23px;
-  //   text-transform: capitalize;
+  // text-transform: capitalize;
   color: #2e2f42;
+  padding: 0 16px 16px;
 }
 .swiper-slide {
   padding: 10px;
@@ -60,5 +61,5 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 0 16px 16px;
+  // padding: 0 16px 16px;
 }

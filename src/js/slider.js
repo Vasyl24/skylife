@@ -52,19 +52,3 @@ const swiper3 = new Swiper('.swiper-3', {
 export { swiper1 };
 export { swiper2 };
 export { swiper3 };
-// export { swiper };
-
-// const swiper = new Swiper('.swiper', {
-//   direction: 'horizontal',
-//   slidesPerView: 4,
-//   loop: true,
-//   spaceBetween: 20,
-
-//   navigation: {
-//     nextEl: '.swiper-button-next',
-//     prevEl: '.swiper-button-prev',
-//   },
-
-//   width: 1240,
-//   speed: 600,
-// });

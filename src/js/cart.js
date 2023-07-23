@@ -1,5 +1,5 @@
 import icon from '../images/icon.svg';
-import image from '../images/empty-cart.png';
+// import image from '../images/empty-cart.png';
 
 // if (window.location.pathname === '/shopping-cart.html') {
 //   refs.headerHomeBtn.classList.remove('current');
@@ -9,7 +9,9 @@ import image from '../images/empty-cart.png';
 const slPage = document.querySelector('.js-sl');
 const emptyCart = `<div class="empty-cart">
     <p class="sl-message">Ця сторінка порожня, додайте якийсь товар в кошик, щоб замовити.</p>
-    <img src="${image}" alt="products" width="300"/>
+              <svg width="300">
+            <use href="${icon}#icon-sad-cart"></use>
+          </svg>
   </div>`;
 
 // Getting data from local Storage
