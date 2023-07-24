@@ -13,14 +13,14 @@ women.map(bike => arr.push(bike));
 children.map(bike => arr.push(bike));
 
 function onClick(evt) {
-  console.log(evt.target);
-  const modalCard = evt.target.parentNode;
-  const cardId = evt.target.closest('.js-bike-item-summer').dataset.id;
-  const product = findProduct(Number(cardId));
+   const modalCard = evt.target;
+   const cardId =
+     evt.target.dataset.id ?? evt.target.closest('.js-card').dataset.id;
+   const product = findProduct(Number(cardId));
 
-  if (modalCard.classList.contains('js-bike-item-summer')) {
-    createMarkup(product);
-  }
+   if (modalCard.classList.contains('js-target')) {
+     createMarkup(product);
+   }
 
   function findProduct(productId) {
     return arr.find(({ id }) => id === productId);

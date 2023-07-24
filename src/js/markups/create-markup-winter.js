@@ -8,13 +8,13 @@ function createMarkup(arr, list) {
           img,
           name,
           price,
-        }) => `<li data-id="${id}" class="snowboard-item js-card js-bike-item-winter">
-          <div class="card-img-snowboard" style="background-image:url('${img}')"></div>
-          
-          <div class="snowboard-des">
-            <h2 class="snowboard-name">${name}</h2>
-            <h3 class="snowboard-price">${price} грн.</h3>
-          </div>
+        }) => `<li data-id="${id}" class="snowboard-item snowboard-des js-target js-card js-bike-item-winter">
+        <div>
+            <div class="card-img-snowboard js-target" style="background-image:url('${img}')"></div>
+            <h2 class="snowboard-name js-target">${name}</h2>
+        </div>
+
+        <h3 class="snowboard-price js-target">${price} ₴</h3>
       </li>`
       )
       .join('');

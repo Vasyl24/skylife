@@ -16,10 +16,6 @@
   text-transform: capitalize;
   color: #2e2f42;
 }
-.bicycle-list {
-  display: flex;
-  // column-gap: 32px;
-}
 .bicycle-des {
   padding: 32px 16px;
   display: flex;
@@ -32,22 +28,18 @@
   box-shadow: 0 2px 1px #2e2f4214, 0 1px 1px #2e2f4229, 0 1px 6px #2e2f4214;
   cursor: pointer;
 }
-.img-bike-section {
-  margin-bottom: 25px;
-}
 .bicycle-name {
   font-weight: 400;
   font-size: 18px;
   line-height: 23px;
   text-transform: capitalize;
   color: #2e2f42;
-  padding: 0 16px;
+  padding: 32px 16px 0px 16px;
 }
 .bicycle-price {
   font-weight: 200;
   font-size: 16px;
   line-height: 23px;
-  // text-transform: capitalize;
   color: #2e2f42;
   padding: 0 16px 16px;
 }
@@ -61,5 +53,4 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  // padding: 0 16px 16px;
 }

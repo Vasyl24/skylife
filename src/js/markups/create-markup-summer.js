@@ -8,12 +8,12 @@ function createMarkup(arr, list) {
           img,
           name,
           price,
-        }) => `<li data-id="${id}" class="bike-item js-card js-bike-item-summer">
-          <img src="${img}" alt="${name}" width="296" />
-          <div class="bike-des">
-            <h2 class="bike-name">${name}</h2>
-            <h3 class="bike-price">${price} грн.</h3>
-          </div>
+        }) => `<li data-id="${id}" class="bike-item js-card js-bike-item-summer bike-des js-target">
+            <div>
+                <img src="${img}" alt="${name}" width="296" height="175" class="js-target"/>
+                <h2 class="bike-name js-target">${name}</h2>
+            </div>
+            <h3 class="bike-price js-target">${price} ₴</h3>
       </li>`
       )
       .join('');

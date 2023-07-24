@@ -8,12 +8,12 @@ const modal = document.querySelector('.js-snowboard-list');
 modal.addEventListener('click', onClick);
 
 function onClick(evt) {
-  // console.log(evt.target.parentNode);
-  const modalCard = evt.target.parentNode;
-  const cardId = evt.target.closest('.js-snowboard-item').dataset.id;
+  const modalCard = evt.target;
+  const cardId =
+    evt.target.dataset.id ?? evt.target.closest('.js-card').dataset.id;
   const product = findProduct(Number(cardId));
 
-  if (modalCard.classList.contains('js-snowboard-item')) {
+  if (modalCard.classList.contains('js-target')) {
     createMarkup(product);
   }
 
