@@ -1,17 +1,9 @@
-// Пишемо сюди базову стилі для сайту
-*,
-*::before,
-*::after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   margin: 0;
   padding: 0;
+  color: var(--primiry-text-color);
 }
 
 img {
@@ -57,6 +49,7 @@ p {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 /* mobile screen */
 @media screen and (max-width: 1023.98px) {
   .container {
@@ -79,4 +72,34 @@ p {
   .container {
     width: 1280px;
   }
+}
+
+.swiper-container {
+  position: relative;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.swiper-container .swiper-button-prev-1 {
+  left: -40px;
+}
+
+.swiper-container .swiper-button-next-1 {
+  right: -40px;
+}
+
+.swiper-container .swiper-button-prev-2 {
+  left: -40px;
+}
+
+.swiper-container .swiper-button-next-2 {
+  right: -40px;
+}
+
+.swiper-container .swiper-button-prev-3 {
+  left: -40px;
+}
+
+.swiper-container .swiper-button-next-3 {
+  right: -40px;
 }
