@@ -8,7 +8,7 @@ const swiper1 = new Swiper('.swiper-1', {
   direction: 'horizontal',
   slidesPerView: 4,
   loop: true,
-  spaceBetween: 20,
+  // spaceBetween: 20,
 
   // breakpoints: {
   // when window width is >= 320px
@@ -16,17 +16,16 @@ const swiper1 = new Swiper('.swiper-1', {
   //   slidesPerView: 1,
   //   spaceBetween: 20,
   // },
-  // when window width is >= 480px
+  // // when window width is >= 480px
   // 480: {
   //   slidesPerView: 2,
   //   spaceBetween: 30,
   // },
   // when window width is >= 640px
   // 768: {
-  //   slidesPerView: 3,
-  //   spaceBetween: 20,
+  // slidesPerView: 3,
+  // spaceBetween: 40,
   // },
-
   // 1200: {
   //   slidesPerView: 4,
   //   spaceBetween: 20,

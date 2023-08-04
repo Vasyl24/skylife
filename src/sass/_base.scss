@@ -51,26 +51,48 @@ p {
 }
 
 /* mobile screen */
-@media screen and (max-width: 1023.98px) {
+// @media screen and (max-width: 1023.98px) {
+//   .container {
+//     width: 100%;
+//     max-width: 414px;
+//     padding-right: 15px;
+//     padding-left: 15px;
+//   }
+// }
+
+// /* tablet screen */
+// @media screen and (min-width: 1024px) {
+//   .container {
+//     width: 1024px;
+//   }
+// }
+
+// /* desktop screen */
+// @media screen and (min-width: 1280px) {
+//   .container {
+//     width: 1280px;
+//   }
+// }
+
+@media screen and (min-width: 428px) {
   .container {
-    width: 100%;
-    max-width: 414px;
-    padding-right: 15px;
-    padding-left: 15px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
-
-/* tablet screen */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 766px;
+  }
+}
 @media screen and (min-width: 1024px) {
   .container {
     width: 1024px;
   }
 }
-
-/* desktop screen */
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .container {
-    width: 1280px;
+    width: 1158px;
   }
 }
 
