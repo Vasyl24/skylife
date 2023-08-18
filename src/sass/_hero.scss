@@ -1,7 +1,19 @@
 .hero-list {
   display: flex;
-  justify-content: center;
 }
+@media screen and (max-width: 1023.98px) {
+  .hero-list {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-list {
+    justify-content: center;
+  }
+}
+
 .hero-link {
   position: relative;
   z-index: 1;
@@ -56,6 +68,23 @@
 
 .hero-item {
   position: relative;
+}
+@media screen and (max-width: 1023.98px) {
+  .hero-list-sun {
+    display: none;
+  }
+  .hero-list-snow {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-list-sun {
+    display: block;
+  }
+  .hero-list-snow {
+    display: block;
+  }
 }
 .hero-item:hover .hero-icon-snow {
   transform: translateX(-200px);
