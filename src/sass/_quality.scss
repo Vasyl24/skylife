@@ -2,6 +2,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #f8f8f8;
+  overflow-y: hidden;
 }
 .quality-list {
   display: flex;
@@ -16,6 +17,7 @@
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-align: center;
 }
 .quality-item {
   display: flex;
@@ -24,26 +26,8 @@
   align-items: center;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1279.98px) {
-  .quality-text {
-    font-size: 12px;
-  }
-  .quality-icon {
-    width: 40px;
-    height: 40px;
-  }
-  .icon-repair {
-    width: 28px;
-    height: 28px;
-  }
-  .icon-compass {
-    width: 28px;
-    height: 28px;
+@media screen and (max-width: 1279.98px) {
+  .quality-list {
+    justify-content: left;
   }
 }
-// .quality-icon {
-//   display: block;
-// width: 32px;
-// height: 32px;
-//   margin-bottom: 14px;
-// }
