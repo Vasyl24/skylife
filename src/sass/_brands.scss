@@ -7,12 +7,14 @@
 .brands-section {
   padding-top: 60px;
   padding-bottom: 60px;
+  flex-wrap: wrap;
 }
 .brands-list {
   display: flex;
   gap: 60px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 .brands-item {
   display: flex;

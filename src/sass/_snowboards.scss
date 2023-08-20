@@ -61,3 +61,21 @@
 .snowboard-item {
   cursor: pointer;
 }
+
+.swiper-container .swiper-button-prev-2 {
+  left: -40px;
+}
+
+.swiper-container .swiper-button-next-2 {
+  right: -40px;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .swiper-container .swiper-button-prev-2 {
+    display: none;
+  }
+
+  .swiper-container .swiper-button-next-2 {
+    display: none;
+  }
+}

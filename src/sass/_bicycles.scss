@@ -54,3 +54,21 @@
   flex-direction: column;
   justify-content: space-between;
 }
+
+.swiper-container .swiper-button-prev-1 {
+  left: -40px;
+}
+
+.swiper-container .swiper-button-next-1 {
+  right: -40px;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .swiper-container .swiper-button-prev-1 {
+    display: none;
+  }
+
+  .swiper-container .swiper-button-next-1 {
+    display: none;
+  }
+}
