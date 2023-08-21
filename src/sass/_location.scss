@@ -14,6 +14,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 .container.location-info {
   padding-left: 115px;
   padding-right: 115px;
@@ -45,4 +46,48 @@
 
 .schedule-item {
   margin-bottom: 8px;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .container.location-info {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .location-adress-text {
+    font-size: 16px;
+  }
+  .location-info > iframe {
+    width: 470px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .container.location-info {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .location-logo {
+    display: flex;
+    justify-content: center;
+  }
+  .location-info {
+    flex-direction: column;
+  }
+  .location-tel-list {
+    text-align: center;
+  }
+  .location-tel-list ~ ul {
+    text-align: center;
+  }
+  .location-adress {
+    justify-content: center;
+  }
+  .location-adress-text {
+    font-size: 16px;
+  }
+  .location-info > iframe {
+    width: 535px;
+
+    margin: 0 auto;
+    max-width: 100%;
+  }
 }
