@@ -6,6 +6,7 @@
 .workshop-text {
   margin-bottom: 10px;
   font-size: 18px;
+  max-width: 100%;
 }
 .workshop-secondary-title {
   margin-bottom: 14px;
@@ -16,4 +17,6 @@
 .workshop-img {
   margin-right: auto;
   margin-left: auto;
+  max-width: 100%;
+  height: auto;
 }
