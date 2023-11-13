@@ -19,6 +19,11 @@ function createMarkup(arr, list) {
       )
       .join('');
   }
+  // else {
+  //   markup = `<li>
+  //     <img src="https://kurtrees.files.wordpress.com/2013/04/black-and-white-empty-empty-heart-heart-favim-com-501667.jpg" alt="404" width="600">
+  //   </li>`;
+  // }
   list.innerHTML = markup;
 }
 export { createMarkup };
